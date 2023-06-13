@@ -1,0 +1,49 @@
+.Header {
+  background: #0d0d0d;
+  height: 12.5rem;
+  display: flex;
+  display: block;
+  text-align: center;
+}
+
+.img {
+margin-top: 4.5rem;
+}
+
+.search {
+  width: 46rem;
+  height: 3.25rem;
+  margin: auto;
+  margin-top: 3.313rem;
+}
+
+.input {
+  font-family: 'inter', sans-serif;
+  font-weight: 400;
+  color: #808080;
+  background-color: #262626;
+  border-color: #0d0d0d;
+  border-radius: 8px;
+  border-width: 1px;
+  width: 39.875rem;
+  height: 100%;
+  margin-right: 0.5rem;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.button {
+  font-family: 'inter', sans-serif;
+  font-weight: 700;
+  background-color: #1E6F9F;
+  color: #F2F2F2;
+  border-radius: 8px;
+  border: none;
+  width: 5.625rem;
+  height: 100%;
+  font-size: 1rem;
+}
+
+.iconButton {
+  font-size: 1rem;
+}

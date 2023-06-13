@@ -1,0 +1,41 @@
+.ListTodo {
+  width: 46rem;
+	display: flex;
+  display: block;
+	margin: auto;
+	margin-top: 5.68rem;  
+}
+
+.span {
+  font-family: 'inter', sans-serif;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 1.5rem 0;
+}
+
+.tasks {
+  color: #4EA8DE;
+}
+
+.ready {
+  color: #8284FA;
+}
+
+.allTasks {
+  font-size: 0.75rem;
+  background-color: #333333;
+  color: #D9D9D9;
+  padding: 2px 8px;
+  border-radius: 8px;
+  margin-left: 0.5rem;
+}
+
+.readyTasks {
+  font-size: 0.75rem;
+  background-color: #333333;
+  color: #D9D9D9;
+  padding: 2px 8px;
+  border-radius: 8px;
+  margin-left: 0.5rem;
+}
