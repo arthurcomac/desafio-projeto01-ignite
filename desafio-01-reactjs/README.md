@@ -8,9 +8,9 @@ A aplicação consiste em uma listagem de todo criada pelo usuario, podendo marc
 A aplicação até o momento consiste em apenas o frontend, não tendo DB para armazenar a lista em consultas futuras, o projeto do backend e DB ainda será construido.
 
 ## Layout web
-![Web 1](./desafio-01-reactjs/public/assets/todolist-umitem.png)
+![Web 1](https://github.com/arthurcomac/desafio-projeto01-ignite/blob/main/desafio-01-reactjs/public/assets/todolist-umitem.png)
 
-![Web 2](./desafio-01-reactjs/public/assets/todolist-quatroitens.png)
+![Web 2](https://github.com/arthurcomac/desafio-projeto01-ignite/blob/main/desafio-01-reactjs/public/assets/todolist-quatroitens.png)
 
 
 
@@ -20,7 +20,7 @@ A aplicação até o momento consiste em apenas o frontend, não tendo DB para a
 - CSS module
 - Javascript
 - ReactJS
-- Reacticons
+- Reacti-cons
 ## Implantação em produção
 - Front end web: Netlify
 
