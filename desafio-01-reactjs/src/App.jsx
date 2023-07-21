@@ -1,23 +1,44 @@
-import { Header } from './components/Header';
-import { ListTodo } from './components/ListTodo';
-import { arrayTodoContext } from './context/arrayTodoContext'
+import { Header } from './components/Header/Header'
+import { ListTodo } from './components/ListTodo/ListTodo'
 
-
-const todoPost = [
-  {content: 'item 1'},
-  {content: 'item 2'},
-  {content: 'item 3'},
-]
-
+import { useState } from 'react'
 
 function App() {
+  const [todoPost, setTodoPost] = useState([])
 
- return (
-  <arrayTodoContext.Provider value={{todoPost}}>
-      <Header  />
-      <ListTodo />
-  </arrayTodoContext.Provider>
- )
+  function addNewTodo(newTodo) {
+    setTodoPost([...todoPost, newTodo]);
+  };
+
+  function deleteOneTodo(theTodoDelete) {
+    const oneTodoTheListIsDelete = todoPost.filter(item => item.content !== theTodoDelete)
+    setTodoPost(oneTodoTheListIsDelete)
+  }
+
+  function setIsChecked(content) {
+    const oneTodoTheListIsUpdate = todoPost.map(item => {
+      if (item.content === content) {
+        item.checked = !item.checked
+      }
+
+      return item;
+    })
+    
+    setTodoPost(oneTodoTheListIsUpdate)
+  }
+
+  return (
+    <>
+      <Header
+        actionUserNewTodo={addNewTodo}
+      />
+      <ListTodo
+        todoPost={todoPost}
+        theTodoDelete={deleteOneTodo}
+        setIsChecked={setIsChecked}
+      />
+    </>      
+  )
 }
 
 export default App
