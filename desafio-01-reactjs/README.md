@@ -3,7 +3,7 @@
 
 TodoList é um projeto desenvolvido a partir do desafio do modulo um de react.js do curso Ignite da [Rocketseat](https://app.rocketseat.com.br/).
 
-A aplicação consiste em uma listagem de todo criada pelo usuario, podendo marcar como tarega concluida ou não, o usuario também poderá deletar os itens que desejar.
+A aplicação consiste em uma listagem de todo criada pelo usuario, podendo marcar como tarefa concluida ou não, o usuario também poderá deletar os itens que desejar.
 
 A aplicação até o momento consiste em apenas o frontend, não tendo DB para armazenar a lista em consultas futuras, o projeto do backend e DB ainda será construido.
 
